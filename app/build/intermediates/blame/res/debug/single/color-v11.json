@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Bibesh/Android_Tutorial/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Bibesh/.android/build-cache/f1b59eb0b053c35f818916fa29238436a56ccda1/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/Bibesh/Android_Tutorial/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Bibesh/.android/build-cache/f1b59eb0b053c35f818916fa29238436a56ccda1/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
