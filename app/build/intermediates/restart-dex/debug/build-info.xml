@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1499931173622"
+    timestamp="1499932688209"
     token="-4526829934195981648"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="96" />
+        duration="41" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="7" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/Users/Bibesh/Android_Tutorial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -70,7 +70,21 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499931173622"
+        timestamp="1499932301131"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Bibesh/Android_Tutorial/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Bibesh/Android_Tutorial/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Bibesh/Android_Tutorial/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1499932688209"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Bibesh/Android_Tutorial/app/build/intermediates/split-apk/debug/slices/slice_1.apk"

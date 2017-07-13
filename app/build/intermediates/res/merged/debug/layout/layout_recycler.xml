@@ -19,22 +19,39 @@
         android:layout_marginStart="10dp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_person_name"
-            style="@style/TextAppearance.AppCompat.Body2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:minLines="2"
-            android:text="Person Name" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_person_name"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:minLines="2"
+                android:text="Person Name" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@android:drawable/star_on"
+                android:padding="10dp"
+                android:id="@+id/iv_click"
+                android:gravity="end" />
+
+
+        </LinearLayout>
 
         <TextView
+            android:id="@+id/tv_person_address"
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:maxLines="4"
-            android:id="@+id/tv_person_address"
             android:minLines="2"
             android:text="Person Address" />
 

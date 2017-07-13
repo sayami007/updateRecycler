@@ -1,4 +1,4 @@
-#Thu Jul 13 13:13:34 NPT 2017
+#Thu Jul 13 13:36:42 NPT 2017
 base.0=/Users/Bibesh/Android_Tutorial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a5d9944700934f434b25a3b3697ed3388eeaf403
 renamed.1=classes.dex
 renamed.0=classes2.dex
